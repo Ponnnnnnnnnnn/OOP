@@ -1,3 +1,5 @@
+a = int(input())
+
 def pattern1(n, i=1):
     if i <= n:
         print('*' * i)
@@ -38,10 +40,6 @@ def pattern6(n, i=None):
         print('*' * i)
         pattern6(n, i - 1)
 
-# Input value of 'a'
-a = int(input())
-
-# Call each recursive function for the respective pattern
 pattern1(a)
 print()
 pattern2(a)
